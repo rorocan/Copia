@@ -8,8 +8,6 @@ const parrafito = document.getElementsByClassName('.parrafito');
 const pid = document.getElementById('#pid');
 const input = document.querySelector('input');
 
-console.log(input.value);
-
 console.log({
   h1,
   p,
@@ -28,10 +26,9 @@ h1.classList.remove('verde');
 // h1.classList.toggle('verde');
 // h1.classList.contains('verde');
 
-input.value = "456"
 
 const img = document.createElement('img');
-img.setAttribute('src', 'https://static.platzi.com/static/images/conf/logo_black@2x.png');
+img.setAttribute('src', 'https://i.pinimg.com/originals/8b/02/40/8b02409f975c98c89e15bc089e3bd289.gif');
 console.log(img);
 
 pid.innerHTML = "";
